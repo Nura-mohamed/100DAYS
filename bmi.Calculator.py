@@ -1,0 +1,7 @@
+Height = input()
+Weight = input()
+Weight_as_int = int(Weight)
+Height_as_float = float(Height)
+BMI = Weight_as_int/(Height_as_float**2)
+BMI_as_int = int(BMI)
+print(BMI_as_int)
